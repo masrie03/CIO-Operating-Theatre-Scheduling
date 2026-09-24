@@ -1,0 +1,18 @@
+{
+  "config": {
+    "name": "graph_pmx_nsga2",
+    "algorithm": "nsga2",
+    "pop_size": 100,
+    "n_generations": 100,
+    "crossover": "graph_pmx",
+    "graph_pmx_window": 6,
+    "crossover_prob": 0.9,
+    "mutation": "swap",
+    "mutation_prob": 1.0,
+    "n_runs": 30
+  },
+  "instance_path": "instances/ot_hidden.json",
+  "n_runs": 30,
+  "base_seed": 0,
+  "completed_utc": "2026-08-15T19:08:45.855531+00:00"
+}

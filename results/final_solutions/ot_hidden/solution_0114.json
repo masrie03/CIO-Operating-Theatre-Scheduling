@@ -1,0 +1,1536 @@
+{
+  "solution_id": 114,
+  "instance": "hidden",
+  "algorithm": "Graph-PMX NSGA-II",
+  "source_seed": 1960127675,
+  "source_run_file": "results\\final_baselines\\graph_pmx_hidden\\run_012_seed_1960127675.json",
+  "source_solution_index": 15,
+  "objectives": {
+    "f1_negative_priority_weighted_throughput": 11013.0,
+    "f2_resource_utilisation_imbalance": 854.25,
+    "f3_waiting_time_fairness": 0.5948090380643629
+  },
+  "chromosome": [
+    51,
+    5,
+    100,
+    80,
+    122,
+    130,
+    140,
+    81,
+    32,
+    110,
+    9,
+    68,
+    38,
+    10,
+    173,
+    144,
+    25,
+    11,
+    6,
+    22,
+    183,
+    150,
+    54,
+    74,
+    60,
+    162,
+    115,
+    93,
+    63,
+    147,
+    166,
+    188,
+    94,
+    2,
+    113,
+    88,
+    56,
+    41,
+    91,
+    180,
+    4,
+    133,
+    47,
+    26,
+    98,
+    164,
+    135,
+    124,
+    146,
+    165,
+    49,
+    78,
+    67,
+    16,
+    120,
+    198,
+    12,
+    136,
+    185,
+    24,
+    85,
+    170,
+    163,
+    125,
+    186,
+    189,
+    155,
+    105,
+    132,
+    161,
+    97,
+    50,
+    156,
+    79,
+    55,
+    64,
+    123,
+    0,
+    142,
+    181,
+    159,
+    152,
+    75,
+    95,
+    153,
+    45,
+    30,
+    15,
+    168,
+    148,
+    154,
+    121,
+    178,
+    134,
+    48,
+    194,
+    190,
+    187,
+    62,
+    141,
+    157,
+    3,
+    174,
+    192,
+    57,
+    52,
+    196,
+    101,
+    193,
+    151,
+    191,
+    158,
+    118,
+    169,
+    58,
+    40,
+    28,
+    129,
+    34,
+    53,
+    102,
+    43,
+    73,
+    20,
+    61,
+    182,
+    65,
+    82,
+    126,
+    1,
+    59,
+    21,
+    33,
+    167,
+    111,
+    66,
+    172,
+    23,
+    19,
+    116,
+    179,
+    14,
+    36,
+    139,
+    103,
+    109,
+    99,
+    177,
+    184,
+    114,
+    39,
+    35,
+    149,
+    137,
+    104,
+    199,
+    77,
+    195,
+    175,
+    145,
+    127,
+    69,
+    70,
+    46,
+    86,
+    128,
+    83,
+    160,
+    107,
+    89,
+    72,
+    71,
+    117,
+    84,
+    18,
+    90,
+    131,
+    37,
+    112,
+    197,
+    17,
+    138,
+    7,
+    108,
+    119,
+    106,
+    176,
+    171,
+    13,
+    31,
+    44,
+    87,
+    143,
+    92,
+    96,
+    76,
+    29,
+    8,
+    27,
+    42
+  ],
+  "schedule": {
+    "scheduled_count": 157,
+    "unscheduled_count": 43,
+    "unscheduled_surgery_ids": [
+      13,
+      124,
+      182,
+      153,
+      158,
+      4,
+      193,
+      152,
+      119,
+      29,
+      35,
+      83,
+      127,
+      60,
+      22,
+      112,
+      20,
+      104,
+      110,
+      100,
+      40,
+      150,
+      138,
+      200,
+      78,
+      176,
+      71,
+      47,
+      84,
+      161,
+      108,
+      73,
+      19,
+      91,
+      38,
+      198,
+      18,
+      172,
+      32,
+      88,
+      93,
+      77,
+      28
+    ],
+    "assignments": [
+      {
+        "surgery_id": 145,
+        "day": 1,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 177,
+        "day": 1,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 4.0
+      },
+      {
+        "surgery_id": 96,
+        "day": 2,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 3.5
+      },
+      {
+        "surgery_id": 74,
+        "day": 2,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 3.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 65,
+        "day": 2,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 135,
+        "day": 2,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 2.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 181,
+        "day": 3,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 3.5
+      },
+      {
+        "surgery_id": 63,
+        "day": 3,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 0.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 192,
+        "day": 4,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 87,
+        "day": 4,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 2.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 136,
+        "day": 4,
+        "ot_id": 3,
+        "team_id": 2,
+        "start_hour": 0.0,
+        "duration_hr": 4.0
+      },
+      {
+        "surgery_id": 131,
+        "day": 5,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 195,
+        "day": 5,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 2.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 10,
+        "day": 6,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 3.5
+      },
+      {
+        "surgery_id": 121,
+        "day": 6,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 164,
+        "day": 6,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 2.5,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 6,
+        "day": 7,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 75,
+        "day": 7,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 1.5,
+        "duration_hr": 3.5
+      },
+      {
+        "surgery_id": 42,
+        "day": 8,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 3.5
+      },
+      {
+        "surgery_id": 117,
+        "day": 8,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 3.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 157,
+        "day": 8,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 0.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 173,
+        "day": 8,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 2.5,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 45,
+        "day": 8,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 5.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 17,
+        "day": 9,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 4.0
+      },
+      {
+        "surgery_id": 49,
+        "day": 9,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 4.0,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 115,
+        "day": 9,
+        "ot_id": 2,
+        "team_id": 7,
+        "start_hour": 6.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 81,
+        "day": 10,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 1.0
+      },
+      {
+        "surgery_id": 189,
+        "day": 10,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 1.0,
+        "duration_hr": 3.5
+      },
+      {
+        "surgery_id": 16,
+        "day": 10,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 191,
+        "day": 10,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 2.5,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 142,
+        "day": 10,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 5.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 98,
+        "day": 11,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 3.5
+      },
+      {
+        "surgery_id": 33,
+        "day": 11,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 59,
+        "day": 11,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 2.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 178,
+        "day": 11,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 4.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 132,
+        "day": 11,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 6.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 171,
+        "day": 12,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 0.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 79,
+        "day": 12,
+        "ot_id": 3,
+        "team_id": 2,
+        "start_hour": 0.0,
+        "duration_hr": 4.0
+      },
+      {
+        "surgery_id": 155,
+        "day": 13,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 1.0
+      },
+      {
+        "surgery_id": 2,
+        "day": 13,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 1.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 107,
+        "day": 13,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 2.5,
+        "duration_hr": 1.0
+      },
+      {
+        "surgery_id": 23,
+        "day": 13,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 0.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 34,
+        "day": 13,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 1.5,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 102,
+        "day": 14,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 3.5
+      },
+      {
+        "surgery_id": 14,
+        "day": 14,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 3.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 97,
+        "day": 14,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 5.0,
+        "duration_hr": 1.0
+      },
+      {
+        "surgery_id": 151,
+        "day": 14,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 0.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 113,
+        "day": 14,
+        "ot_id": 2,
+        "team_id": 5,
+        "start_hour": 2.5,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 190,
+        "day": 15,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 3.5
+      },
+      {
+        "surgery_id": 120,
+        "day": 15,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 3.5,
+        "duration_hr": 1.0
+      },
+      {
+        "surgery_id": 147,
+        "day": 15,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 43,
+        "day": 15,
+        "ot_id": 2,
+        "team_id": 7,
+        "start_hour": 2.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 92,
+        "day": 16,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 1.0
+      },
+      {
+        "surgery_id": 185,
+        "day": 16,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 1.0,
+        "duration_hr": 3.5
+      },
+      {
+        "surgery_id": 69,
+        "day": 16,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 0.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 125,
+        "day": 16,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 1.5,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 194,
+        "day": 17,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 128,
+        "day": 17,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 1.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 95,
+        "day": 17,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 0.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 106,
+        "day": 17,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 1.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 51,
+        "day": 17,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 3.0,
+        "duration_hr": 4.0
+      },
+      {
+        "surgery_id": 111,
+        "day": 18,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 0.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 31,
+        "day": 18,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 1.5,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 196,
+        "day": 18,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 4.0,
+        "duration_hr": 4.0
+      },
+      {
+        "surgery_id": 141,
+        "day": 19,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 3.5
+      },
+      {
+        "surgery_id": 170,
+        "day": 19,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 3.5,
+        "duration_hr": 1.0
+      },
+      {
+        "surgery_id": 180,
+        "day": 19,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 4.5,
+        "duration_hr": 1.0
+      },
+      {
+        "surgery_id": 61,
+        "day": 19,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 0.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 3,
+        "day": 19,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 2.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 105,
+        "day": 19,
+        "ot_id": 2,
+        "team_id": 5,
+        "start_hour": 4.0,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 52,
+        "day": 20,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 70,
+        "day": 20,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 1.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 9,
+        "day": 20,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 3.0,
+        "duration_hr": 1.0
+      },
+      {
+        "surgery_id": 133,
+        "day": 20,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 0.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 46,
+        "day": 20,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 1.5,
+        "duration_hr": 4.0
+      },
+      {
+        "surgery_id": 101,
+        "day": 21,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 3.5
+      },
+      {
+        "surgery_id": 62,
+        "day": 21,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 3.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 139,
+        "day": 21,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 5.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 76,
+        "day": 21,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 137,
+        "day": 22,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 144,
+        "day": 22,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 1.5,
+        "duration_hr": 1.0
+      },
+      {
+        "surgery_id": 123,
+        "day": 22,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 4.0
+      },
+      {
+        "surgery_id": 27,
+        "day": 22,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 4.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 24,
+        "day": 22,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 6.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 166,
+        "day": 23,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 187,
+        "day": 23,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 2.0,
+        "duration_hr": 4.0
+      },
+      {
+        "surgery_id": 66,
+        "day": 23,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 6.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 167,
+        "day": 24,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 3.5
+      },
+      {
+        "surgery_id": 154,
+        "day": 24,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 3.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 160,
+        "day": 24,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 0.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 90,
+        "day": 24,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 2.5,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 72,
+        "day": 24,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 4.5,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 159,
+        "day": 25,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 3.5
+      },
+      {
+        "surgery_id": 21,
+        "day": 25,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 3.5,
+        "duration_hr": 1.0
+      },
+      {
+        "surgery_id": 86,
+        "day": 25,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 0.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 118,
+        "day": 25,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 1.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 114,
+        "day": 26,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 3.5
+      },
+      {
+        "surgery_id": 44,
+        "day": 26,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 3.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 67,
+        "day": 26,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 5.0,
+        "duration_hr": 1.0
+      },
+      {
+        "surgery_id": 116,
+        "day": 26,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 68,
+        "day": 26,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 2.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 168,
+        "day": 26,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 4.0,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 57,
+        "day": 27,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 4.0
+      },
+      {
+        "surgery_id": 58,
+        "day": 27,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 4.0,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 183,
+        "day": 27,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 6.0,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 146,
+        "day": 27,
+        "ot_id": 4,
+        "team_id": 5,
+        "start_hour": 0.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 140,
+        "day": 28,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 3.5
+      },
+      {
+        "surgery_id": 129,
+        "day": 28,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 3.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 174,
+        "day": 28,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 0.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 162,
+        "day": 28,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 1.5,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 130,
+        "day": 28,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 4.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 94,
+        "day": 29,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 0.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 103,
+        "day": 29,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 1.5,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 15,
+        "day": 29,
+        "ot_id": 2,
+        "team_id": 5,
+        "start_hour": 4.0,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 39,
+        "day": 29,
+        "ot_id": 3,
+        "team_id": 2,
+        "start_hour": 0.0,
+        "duration_hr": 4.5
+      },
+      {
+        "surgery_id": 7,
+        "day": 30,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 37,
+        "day": 30,
+        "ot_id": 2,
+        "team_id": 7,
+        "start_hour": 2.5,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 85,
+        "day": 30,
+        "ot_id": 2,
+        "team_id": 7,
+        "start_hour": 5.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 186,
+        "day": 31,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 3.5
+      },
+      {
+        "surgery_id": 53,
+        "day": 31,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 3.5,
+        "duration_hr": 1.0
+      },
+      {
+        "surgery_id": 5,
+        "day": 31,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 0.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 80,
+        "day": 31,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 2.5,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 1,
+        "day": 31,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 5.0,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 82,
+        "day": 32,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 4.0
+      },
+      {
+        "surgery_id": 12,
+        "day": 32,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 4.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 122,
+        "day": 33,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 1.0
+      },
+      {
+        "surgery_id": 184,
+        "day": 33,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 4.0
+      },
+      {
+        "surgery_id": 99,
+        "day": 33,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 4.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 126,
+        "day": 33,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 5.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 163,
+        "day": 34,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 3.5
+      },
+      {
+        "surgery_id": 197,
+        "day": 34,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 3.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 11,
+        "day": 34,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 0.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 188,
+        "day": 34,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 2.5,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 8,
+        "day": 34,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 5.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 55,
+        "day": 35,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 1.0
+      },
+      {
+        "surgery_id": 149,
+        "day": 35,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 1.0,
+        "duration_hr": 1.0
+      },
+      {
+        "surgery_id": 89,
+        "day": 35,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 0.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 25,
+        "day": 35,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 1.5,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 36,
+        "day": 35,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 3.5,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 134,
+        "day": 35,
+        "ot_id": 3,
+        "team_id": 2,
+        "start_hour": 0.0,
+        "duration_hr": 4.5
+      },
+      {
+        "surgery_id": 148,
+        "day": 36,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 0.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 109,
+        "day": 36,
+        "ot_id": 1,
+        "team_id": 4,
+        "start_hour": 1.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 48,
+        "day": 37,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 4.0
+      },
+      {
+        "surgery_id": 156,
+        "day": 37,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 4.0,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 56,
+        "day": 37,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 5.5,
+        "duration_hr": 1.5
+      },
+      {
+        "surgery_id": 165,
+        "day": 38,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 143,
+        "day": 38,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 2.0,
+        "duration_hr": 4.0
+      },
+      {
+        "surgery_id": 26,
+        "day": 39,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 4.0
+      },
+      {
+        "surgery_id": 169,
+        "day": 39,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 4.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 64,
+        "day": 40,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 0.0,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 179,
+        "day": 40,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 2.0,
+        "duration_hr": 2.0
+      },
+      {
+        "surgery_id": 175,
+        "day": 40,
+        "ot_id": 2,
+        "team_id": 1,
+        "start_hour": 4.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 50,
+        "day": 40,
+        "ot_id": 3,
+        "team_id": 2,
+        "start_hour": 0.0,
+        "duration_hr": 4.5
+      },
+      {
+        "surgery_id": 41,
+        "day": 41,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 0.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 54,
+        "day": 41,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 2.5,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 30,
+        "day": 41,
+        "ot_id": 2,
+        "team_id": 3,
+        "start_hour": 5.0,
+        "duration_hr": 2.5
+      },
+      {
+        "surgery_id": 199,
+        "day": 42,
+        "ot_id": 3,
+        "team_id": 2,
+        "start_hour": 0.0,
+        "duration_hr": 4.5
+      }
+    ]
+  },
+  "feasibility_certificate": {
+    "overall_feasible": true,
+    "constraint_handling": "feasibility_by_construction",
+    "decoder": "GreedyDecoder",
+    "explicit_pymoo_constraints": 0,
+    "permutation_valid": true,
+    "ot_eligibility": "enforced_by_decoder",
+    "team_eligibility": "enforced_by_decoder",
+    "ot_daily_hours": "enforced_by_decoder",
+    "team_daily_hours": "enforced_by_decoder",
+    "team_consecutive_days": "enforced_by_decoder",
+    "earliest_day": "enforced_by_decoder",
+    "icu_ward_policy": "capacity_enforced_by_decoder"
+  }
+}

@@ -1,0 +1,4 @@
+metric,statistic,p_value,n_runs,n_configurations,significant_0.05
+hv,78.39999999999998,6.763812861052682e-17,30,4,True
+igd_plus,70.12,4.023117431694705e-15,30,4,True
+spread,82.36000000000001,9.566030190599018e-18,30,4,True

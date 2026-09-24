@@ -1,0 +1,4 @@
+Instance,HV change %,IGD+ change %,Spread change %,HV significant,IGD+ significant,Spread significant
+Small,0.004536664704177604,-55.452718990429005,0.8294861818107349,False,False,False
+Medium,4.0249870052937124,-13.203725203245542,5.947708794561989,True,False,True
+Large,4.322676478225835,-10.433980609465786,2.4313275949719273,True,False,False
